@@ -1,0 +1,79 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    background-image: url(../photo/0.png);
+} */
+
+.container{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.road{
+    border-left:black solid; 
+    border-right:black solid;  
+    width: 700px;
+    background-color: rgb(141, 101, 101);
+    height: 100vh;
+
+}
+.line{
+
+    background-color: #fff;
+    width: 5px;
+    height: 80px;
+    position: absolute;
+left: 50%;
+
+
+}
+.hide{
+    opacity: 0;
+}
+.start{
+    position: absolute;
+    top: 30%;
+    left: 43%;
+    color: rgb(50, 15, 83);
+}
+.mycar{
+    position: absolute;
+    width: 43px;
+    height: 90px;
+    bottom: 0;
+    z-index: 1;
+   background-image: url(../photo/my.png);
+    background-size: cover;
+}
+.car{
+    position: absolute;
+    width: 40px;
+    height: 80px;
+    /* background-color: blueviolet; */
+   /* background-image: url(0.png); */
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.stop{
+    position: absolute;
+    right: o;
+    width: 50px;
+}
+.score{
+    color: rgb(228, 222, 227);
+    background-color: rgb(18, 8, 73);
+    width: 80px;
+    height: 40px;
+    /* padding: 10px; */
+    margin-left: 30px;
+    position: absolute;
+    right: o;
+    top: 30px;
+}
