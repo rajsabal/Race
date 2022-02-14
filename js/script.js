@@ -42,7 +42,7 @@ for(let i=0;i<7;i++){
 }
 for(let i=0;i<8;i++){
     let car=document.createElement('div');
-    let Url='url(../photo/'+Math.floor(Math.random()*18)+'.png)'
+    let Url='url(./photo/'+Math.floor(Math.random()*18)+'.png)'
     car.style.backgroundImage=Url
 
     car.classList.add('car');
@@ -52,7 +52,7 @@ for(let i=0;i<8;i++){
     let num= Math.floor(Math.random()*7);
     
     road.appendChild(car);
-   console.log(num+'.png');
+   
 }
 let runI;
 let carI;
@@ -73,7 +73,7 @@ function play (){
 }
 function moveline(){
     let lines=Array.from(document.querySelectorAll('.line'));
-    console.log(cscore);
+    
     lines.forEach(element => {
         
         if(element.offsetTop>940)
@@ -92,8 +92,8 @@ function movecar(){
         issafe(element)
         if(element.offsetTop>940){
 
-        element.style.top=Math.random()*3000-1550+'px';
-        let Url='url(../photo/'+Math.floor(Math.random()*18)+'.png)'
+        element.style.top=Math.random()*1000-1000+'px';
+        let Url='url(./photo/'+Math.floor(Math.random()*18)+'.png)'
         element.style.backgroundImage=Url
     }
         else
