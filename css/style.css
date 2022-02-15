@@ -5,6 +5,7 @@
 }
 body{
     overflow: hidden;
+    
 }
 
 .container{
@@ -74,8 +75,8 @@ left: 50%;
 
 .mycar{
     position: absolute;
-    width: 40px;
-    height: 90px;
+    width: 60px;
+    height: 140px;
     bottom: 0;
     left: 50%;
     z-index: 1;
@@ -85,8 +86,8 @@ left: 50%;
 }
 .car{
     position: absolute;
-    width: 40px;
-    height: 80px;
+    width: 60px;
+    height: 120px;
     /* background-color: blueviolet; */
    /* background-image: url(0.png); */
     
