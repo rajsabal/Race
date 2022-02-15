@@ -1,0 +1,112 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+    
+}
+
+.container{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jumpleft{
+    color: rgb(107, 36, 36);
+    position: absolute;
+    top: 40px;
+    left: 1700px;
+}
+.road{
+    display: block;
+    border-left:black solid; 
+    border-right:rgb(43, 35, 17) solid ;  
+    width: 800px;
+    background-color: rgb(141, 101, 101);
+    height: 110vh;
+
+}
+.leftfoot{
+    display: inline-block;
+    position: relative;
+    left: 0;
+    width: 60px;
+    height: 100vh;
+    /* border-right: white solid 1px; */
+    background-color: rgb(141, 101, 101);
+}
+.rightfoot{
+    display: inline-block;
+    position: relative;
+    left: 670px;
+  
+    width: 60px;
+    height: 100vh;
+    /* border-left: white solid 1px; */
+    background-color: rgb(151, 107, 107);
+}
+
+.line{
+
+    background-color: rgb(172, 173, 88);
+    width: 5px;
+    height: 80px;
+    position: absolute;
+left: 50%;
+
+
+}
+.hide{
+    opacity: 0;
+}
+.start{
+    position: absolute;
+    top: 30%;
+    left: 43%;
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+    color: rgb(50, 15, 83);
+}
+
+.mycar{
+    position: absolute;
+    width: 60px;
+    height: 140px;
+    bottom: 0;
+    left: 50%;
+    z-index: 1;
+   background-image: url(../photo/my.png);
+   background-size: contain;
+    background-repeat: no-repeat;
+}
+.car{
+    position: absolute;
+    width: 60px;
+    height: 120px;
+    /* background-color: blueviolet; */
+   /* background-image: url(0.png); */
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.stop{
+    position: absolute;
+    right: o;
+    width: 50px;
+}
+.score{
+    color: rgb(228, 222, 227);
+    background-color: rgb(18, 8, 73);
+    width: 80px;
+    height: 40px;
+    /* padding: 10px; */
+    margin-left: 30px;
+    position: absolute;
+    right: o;
+    top: 30px;
+}
